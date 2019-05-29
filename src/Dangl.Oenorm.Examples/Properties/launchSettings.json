@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dangl.Oenorm.Examples": {
+      "commandName": "Project",
+      "commandLineArgs": "-i \"$(SolutionDir)\\ExampleFiles\\GAEBXML_DE.X86\" -o \"$(SolutionDir)\\GaebExport.onlv\""
+    }
+  }
+}
