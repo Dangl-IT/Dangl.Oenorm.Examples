@@ -6,7 +6,7 @@ namespace Dangl.Oenorm.Examples
 {
     class Program
     {
-        private static async Task Main(string[] args)
+        private static void Main(string[] args)
         {
             var optionsParser = new OptionsParser(args);
             if (optionsParser.IsValid)
@@ -15,7 +15,10 @@ namespace Dangl.Oenorm.Examples
                 Console.WriteLine(CopyrightInfo.Default);
                 try
                 {
-                    await TransformGaebToOenormAsync(optionsParser.Result);
+                    TransformGaebToOenormAsync(optionsParser.Result)
+						.ConfigureAwait(false)
+						.GetAwaiter()
+						.GetResult();
                     Console.WriteLine("Finished GAEB to ÖNorm transformation");
                 }
                 catch (Exception e)

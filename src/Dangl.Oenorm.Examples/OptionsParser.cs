@@ -17,10 +17,10 @@ namespace Dangl.Oenorm.Examples
         private void ParseOptions()
         {
             var parsedOptions = Parser.Default.ParseArguments<Options>(_commandLineArguments);
-            if (parsedOptions is Parsed<Options> parserResult)
+            if (parsedOptions is Parsed<Options>)
             {
                 IsValid = true;
-                Result = parserResult.Value;
+                Result = ((Parsed<Options>)parsedOptions).Value;
             }
         }
     }
