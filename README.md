@@ -7,6 +7,8 @@
 This is a _demonstration_ library intended to show the usage of the Dangl.Oenorm project.
 To build this solution, you need to copy the packages from the evaluation bundle into the `./localPackages` folder, relative to the root of this project:
 
+You can find a summary article at our website: [https://www.dangl-it.com/articles/convert-between-oenorm-2063-and-gaeb-files-with-danglava-dangloenorm-and-danglgaeb/](https://www.dangl-it.com/articles/convert-between-oenorm-2063-and-gaeb-files-with-danglava-dangloenorm-and-danglgaeb/)
+
 > If you are already a customer with support contract, please see any of the packages documentation on how to set up the official NuGet feed for **DanglIT** packages.
 
 These packages are not included in this repository.
