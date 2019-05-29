@@ -2,7 +2,8 @@
 
 > A more detailed feature description is available [on my website](https://www.dangl-it.com/products/oenorm-library/).
 
-> This project requires **Visual Studio 2017** or newer. Otherwise, the Dotnet CLI is also supported.
+> This project requires **Visual Studio 2017** or newer. Otherwise, the Dotnet CLI is also supported. For **Visual Studio 2015 and older**, please
+> switch to the `vs2013` branch of this repository: [https://github.com/Dangl-IT/Dangl.Oenorm.Examples/tree/vs2013](https://github.com/Dangl-IT/Dangl.Oenorm.Examples/tree/vs2013)
 
 This is a _demonstration_ library intended to show the usage of the Dangl.Oenorm project.
 To build this solution, you need to copy the packages from the evaluation bundle into the `./localPackages` folder, relative to the root of this project:
